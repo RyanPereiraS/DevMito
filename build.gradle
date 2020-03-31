@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.1-SNAPSHOT'
+compileJava.options.encoding = "UTF-8"
+
+sourceCompatibility = 1.8
+
+
+repositories {
+    mavenCentral()
+    maven { url='https://hub.spigotmc.org/nexus/content/groups/public/' }
+}
+allprojects {
+    repositories {
+        maven { url 'https://jitpack.io' }
+    }
+}
+dependencies {
+    compile 'org.bukkit:bukkit:1.8-R0.1-SNAPSHOT'
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    implementation 'com.github.SasukeMCHC:LegendChat:3.1'
+
+}

@@ -1,0 +1,11 @@
+ #-----------------------------
+ # Criador: UmGamer_
+ # Discord: [Dev]UmGamer_#6392
+ #        Versão: 1.1
+ #-----------------------------
+
+# Para funcionamento da tag adicione {mito} nas configurações de chat de seu plugin
+# format:
+#  default: '{color}[{nick}] {groupprefix}{prefix}{bprefix2}{bprefix}{mito}&f{sender}{bsuffix}{suffix}{groupsuffix}{color}: {msg}'
+
+Mito_Atual: "null"

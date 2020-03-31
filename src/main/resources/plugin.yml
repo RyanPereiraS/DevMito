@@ -1,0 +1,10 @@
+main: dev.umgamer.DevMito
+name: DevMito
+author: UmGamer_
+version: 1.1
+
+commands:
+  mito:
+    description: Vê o mito atual do servidor
+  setmito:
+    description: Define o mito do PVP
